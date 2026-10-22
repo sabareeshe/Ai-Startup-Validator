@@ -1,0 +1,16 @@
+{
+  "name": "ai-startup-validator",
+  "version": "1.0.0",
+  "description": "AI Startup Validator - Full-Stack MERN Application with Google Gemini AI",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "report": "node create-report.js"
+  },
+  "dependencies": {
+    "html-to-docx": "^1.8.0"
+  }
+}
